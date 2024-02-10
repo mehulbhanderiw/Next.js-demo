@@ -1,0 +1,53 @@
+.w-popup {
+  max-width: 1130px !important;
+  padding: 0 80px;
+}
+.owl-nav button {
+  font-size: 2.6rem !important;
+}
+.angle-nav {
+  font-size: 20px !important;
+  color: #fcb941 !important;
+}
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.close-btn button {
+  line-height: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  border-radius: 100%;
+  width: 100%;
+}
+.scrollToTop {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  z-index: 999;
+  color: #cccccc;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: none;
+  border-radius: 0;
+  background-color: #fafafa;
+  font-size: 3rem;
+  transition: all 0.4s ease;
+  bottom: 128px;
+  right: 50px;
+}
+
+.scrollToTop:hover {
+  color: #777;
+  background-color: #eaeaea;
+}
